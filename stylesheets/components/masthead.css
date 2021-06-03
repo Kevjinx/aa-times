@@ -1,6 +1,8 @@
 
+.masthead > * {
+  border: 1px solid black;
 
-
+}
 .masthead {
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
@@ -9,8 +11,18 @@
   'masthead__menu-and-search . masthead__actions'
   '. masthead__technologies .'
   'masthead__date masthead__logo masthead__paper';
+
 }
 
+.masthead__menu-and-search {
+  display: flex;
+  align-items: center;
+
+}
+.fa-bars {
+  margin-right: 15px;
+  margin-left: 10px;
+}
 
 .masthead__menu-and-search{grid-area: masthead__menu-and-search }
 .masthead__actions{grid-area: masthead__actions }
