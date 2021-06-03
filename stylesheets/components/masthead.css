@@ -17,11 +17,41 @@
 .masthead__menu-and-search {
   display: flex;
   align-items: center;
-
 }
 .fa-bars {
   margin-right: 15px;
   margin-left: 10px;
+}
+
+.masthead__actions {
+  grid-column-start: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.fa-cog {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.action__button-login {
+  border: 1px solid rgb(42, 42, 104);
+  border-radius: 10%;
+  display: inline;
+  margin-left: 10px;
+  padding: 3px 2px 3px 2px;
+  background-color: rgb(99, 137, 187);
+  color: white;
+}
+
+.action__button-subscribe {
+  border: 1px solid rgb(42, 42, 104);
+  border-radius: 10%;
+  display: inline;
+  padding: 3px 2px 3px 2px;
+  background-color: rgb(99, 137, 187);
+  color: white;
 }
 
 .masthead__menu-and-search{grid-area: masthead__menu-and-search }
