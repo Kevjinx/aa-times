@@ -1,0 +1,20 @@
+
+
+
+.masthead {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 3fr 1fr 7fr;
+  grid-template-areas:
+  'masthead__menu-and-search . masthead__actions'
+  '. masthead__technologies .'
+  'masthead__date masthead__logo masthead__paper';
+}
+
+
+.masthead__menu-and-search{grid-area: masthead__menu-and-search }
+.masthead__actions{grid-area: masthead__actions }
+.masthead__technologies{grid-area: masthead__technologies }
+.masthead__date{grid-area: masthead__date }
+.masthead__logo{grid-area: masthead__logo }
+.masthead__paper{grid-area: masthead__paper }
